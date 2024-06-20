@@ -2,7 +2,7 @@ import { RouteManager } from "../module/route_manager";
 
 export class AppRoutes {
     
-    static home = '';
+    static home = 'me';
     static projects = 'projects';
     static software_languages = 'languages';
     static about_me = 'about_me';
