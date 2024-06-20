@@ -19,7 +19,6 @@ export class RouteManager{
             case AppRoutes.aboutToRoute:
                 return <AboutMeScreen/>;
             default:
-                alert('Aradağınız sayfa bulunamamıştır.')
                 return <HomeScreen/>;
         }
     }
