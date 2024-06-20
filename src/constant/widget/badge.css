@@ -1,0 +1,17 @@
+.badge-area{
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5em;
+}
+.badge-area#normal .badge{
+    background-color: #253a50;
+    color: #FFFFFF;
+    padding: .2em .3em;
+    border-radius: .25rem;
+}
+.badge-area:not(#normal) .badge{
+    background-color: #0c6828;
+    color: #FFFFFF;
+    padding: .2em .3em;
+    border-radius: .25rem;
+}

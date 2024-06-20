@@ -1,0 +1,19 @@
+.logo-text-info-widget{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.logo-text-info-widget-item{
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    font-size: 18px;
+}
+.logo-text-info-widget-item img{
+    width: 2rem;
+}
+.logo-text-info-widget-item a{
+    text-decoration: none;
+    font-weight: 500;
+}

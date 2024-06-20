@@ -1,0 +1,50 @@
+
+.home-area{
+    height: calc(100vh - 5rem);
+}
+.picture-area{
+    width: 100%;
+    height: 100%;
+    background-image: url('/public/img/show_picture.JPG');
+    background-size: cover;
+    background-position: center;
+    filter: brightness(80%);
+    transition: .25s filter;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+}
+
+.picture-area:hover{
+    filter: brightness(70%);
+}
+.picture-area .my-info{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+.picture-area .my-info .name{
+    font-size: 42px;
+    width: 60%;
+}
+.picture-area .my-info .province-country{
+    font-size: 24px;
+    width: 60%;
+}
+
+.picture-area .my-contact{
+    width: 60%;
+    height: 50%;
+    background-color: #282b3f;
+    border: .2rem solid rgb(79, 79, 109);
+    border-radius: 2rem;
+    padding: 1em 2em 1em 2em;
+}
+
+.picture-area .my-contact h1{
+    color: #FFFFFF;
+    font-weight: 500;
+}

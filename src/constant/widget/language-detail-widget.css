@@ -1,0 +1,31 @@
+.language_detail_list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+}
+  
+.language_detail_item {
+    margin-left: 5%;
+    width: 90%;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 1rem;
+    padding: 1em;
+    display: flex;
+    gap: .75em;
+    flex-direction: column;
+}
+
+.language_detail_item > * {
+  margin-bottom: .5rem;
+}
+
+.language_detail_item > *:last-child {
+  margin-bottom: 0;
+}
+
+.language_detail_item h2{
+    font-size: 24px;
+    font-weight: 500;
+}
