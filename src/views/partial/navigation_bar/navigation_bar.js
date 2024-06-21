@@ -2,11 +2,11 @@ import React from 'react'
 import './navigation_bar.css'
 import { RouteDetails } from '../../../constant/routes/routes'
 export const NavigationBar = () => {
+
+  const headerText = "Efe Işık - Kişisel Website";
   return (
     <nav className='navigation_bar'>
-        <div className='navigation_bar_header'>
-            Efe Işık - Kişisel Website
-        </div>
+        <div className='navigation_bar_header'>{headerText}</div>
         <NavigationBarRoutes>
             {
                 Object.values(RouteDetails).map((route)=>{
